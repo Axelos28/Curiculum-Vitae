@@ -22,3 +22,46 @@ html{
     background-color: #f5f5f5;
     font-family: "Raleway", "serif";
 }
+
+p{
+    font-family: "Raleway", "serif";
+}
+
+h1{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    flex-basis: 20%;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h2{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ffffff;
+    flex-basis: 20%;
+    margin-top: 0px;
+}
+
+h3{
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #17abb3;  
+}
+
+h4{
+    font-family: "Lato" , sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h4:hover{
+    border: 1px solid #e3e3e3;
+    background-color: #e3e3e3;
+    border-left-width: 6px;
+    border-left-color: #17abb3;
+}
