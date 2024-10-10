@@ -98,6 +98,21 @@ h4:hover{
     margin-bottom: 10px;
 }
 
+#perso2{
+    flex-basis: 50%;
+    margin-bottom: 10px;
+}
+
+#perso3{
+    flex-basis: 50%;
+    margin-bottom: 10px;
+}
+
+#perso4{
+    flex-basis: 50%;
+    margin-bottom: 10px;
+}
+
 body{
     background-color: #ffffff;
     width: 1160px;
@@ -157,6 +172,14 @@ time{
     float: right;
 }
 
+#masterie1{
+    float: right;
+}
+
+#masterie2{
+    float: right;
+}
+
 #language{
     line-height: 2;
     margin-left: -40px;
@@ -183,6 +206,18 @@ span{
 }
 
 #stars{
+    float: right;
+}
+
+#stars2{
+    float: right;
+}
+
+#stars3{
+    float: right;
+}
+
+#stars4{
     float: right;
 }
 
