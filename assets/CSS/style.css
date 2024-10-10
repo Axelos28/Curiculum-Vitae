@@ -17,3 +17,8 @@ font-face{
     src: url(../fonts/Raleway-Italic.woff);
     src: url(../fonts/Raleway-Italic.ttf) format("truetype")
 }
+
+html{
+    background-color: #f5f5f5;
+    font-family: "Raleway", "serif";
+}
