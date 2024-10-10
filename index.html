@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Curiculum Vitae</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+        </style>
+        <link rel="icon" type="image/png" href="./assets/icons/favicon-32x32.png">
+        <script src="https://kit.fontawesome.com/71d633192b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
+    <header>
+        <a href="./assets/image/photo.jpg" target="_blank"><img id="photo" src="./assets/image/photo.jpg" alt="photo-identité"></a>
+        <h1>Alexandre Lachambre</h1>
+        <h2>Développeur Web et Web Mobile</h2>
+        <ul id="personal" style="list-style-type: none;">
+            <div id="perso"><li><i class="fa-solid fa-envelope"></i> <a href="mailto:axelos28@gmail.com" style="text-decoration: none;">Mail</a></li></div>
+            <div id="perso"><li><i class="fa-solid fa-house"></i> <a href="https://www.google.fr/maps/place/70+Rue+Octave+Lenoir,+27530+%C3%89zy-sur-Eure/@48.8644094,1.4080859,16z/data=!3m1!4b1!4m6!3m5!1s0x47e6ad67046ec7d3:0x40d559bb64ce0984!8m2!3d48.864406!4d1.4129568!16s%2Fg%2F11fmz8q5f_?entry=ttu&g_ep=EgoyMDI0MTAwNS4yIKXMDSoASAFQAw%3D%3D" target="_blank" style="text-decoration: none;">Adresse</a></li></div>
+            <div id="perso"><li><i class="fa-solid fa-phone"></i> <a href="tel: 0658929170" style="text-decoration: none;">Téléphone</a></li></div>
+            <div id="perso"><li><i class="fa-solid fa-car"></i> Permis B</li></div>
+        </ul>
+    </header>
+
+    <main>
+        <div id="information">
+            <h3>Compétences</h3><hr>
+            <ul id="skill" style="list-style-type: none;">
+                <li><b><span>HTML</span></b><div id="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></div> </li>
+                <li><b><span>CSS</span></b> <div id="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i></div></li>
+                <li><b><span>Javascript</span></b><div id="stars"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></div></li>
+                <li><b><span>PHP</span></b> <div id="stars"><i class="fa-solid fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i> <i class="fa-regular fa-star"></i></div></li>
+            </ul>
+
+            <h3>Langues</h3><hr>
+            <ul id="language" style="list-style-type: none;">
+                <li><b><span>Français</span></b> <div id="masterie">langue maternelle</div></li>
+               <li><b><span>Anglais </span></b><div id="masterie">professionnel</div></li>
+                <li><b><span>Italien</span></b> <div id="masterie">notions</div></li>
+            </ul>
+            
+
+            <h3>Qualités</h3><hr>
+            <ul id="list" style="list-style-type: square;">
+                <li><span>Esprit d'équipe</span></li>
+                <li><span>Autonome</span></li>
+                <li><span>Perséverant</span></li>
+                <li><span>Curieux</span></li>
+            </ul>
+
+            <h3>Centres d'interet</h3><hr>
+            <ul id="list" style="list-style-type: square;">
+                <li><span>Poker</span></li>
+                <li><span>Culture japonnaise</span></li>
+                <li><span>Voitures</span></li>
+                <li><span>Littérature</span></li>
+            </ul>
+        </div>
+
+        <div id="profil">
+            <h3>Profil</h3><hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, amet error. Hic voluptatem pariatur et atque mollitia ipsum quisquam ipsa, eos soluta aliquid repellendus, nobis maxime? Illo mollitia voluptate dignissimos.</p>
+
+            <h3>Formations</h3><hr>
+            
+                <h4>Mentions complémentaires : aluminium et produits de synthèse<time datetime="2004/2005">2004/2005</time> <small><br><i>CFA du batiment d'Agnetz</i></small></h4>
+
+                <h4>CAP Méttallerie<time datetime="2002/2004">2002/2004 </time><small><br><i>CFA du batiment d'Evreux</i></small> </h4> 
+
+            <h3>Experiences professionnelles</h3><hr>
+            
+            <h4> Fabriquant installateur de vérandas <time datetime="2002/2023">2002/2023</time><small><br><i>Vérandas Pitot</i></small> </h4>
+            
+        </div>
+
+    </main>
+
+    <footer>
+        <div id="icon"> <a href="https://github.com/Axelos28" target="blank"><i id="github" class="fa-brands fa-github"></i> </a>
+            <a href="https://www.facebook.com/alexandre.lachambre.7" target="_blank"><i id="facebook" class="fa-brands fa-facebook"></i></a> 
+                       <a href="https://discord.gg/a7T7zv3rhe" target="_blank"><i id="discord" class="fa-brands fa-discord"></i></div></a>
+        <div id="update">Mis a jour le : 07/10/2024</div>
+        
+    
+</footer>
     
 </body>
 </html>
