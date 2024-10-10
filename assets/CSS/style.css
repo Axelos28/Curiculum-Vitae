@@ -6,13 +6,13 @@
     src: url( ../fonts/Raleway-Regular.ttf) format("truetype");
 }
 
-font-face {
+@font-face {
     font-family: "bold Raleway";
     src: url(../fonts/Raleway-Bold.woff);
     src: url(../fonts/Raleway-Bold.ttf) format("truetype");
 }
 
-font-face{
+@font-face{
     font-family: "italic Raleway";
     src: url(../fonts/Raleway-Italic.woff);
     src: url(../fonts/Raleway-Italic.ttf) format("truetype")
